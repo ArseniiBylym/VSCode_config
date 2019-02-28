@@ -1,0 +1,26 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.fontSize": 14,
+    "workbench.colorCustomizations": {
+        "[Monokai Dimmed]": {
+            "editor.background": "#272c30",
+            
+            "sideBar.background": "#3c3b35af"
+        },
+    },
+    "workbench.startupEditor": "none",
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "editor.lineHeight": 22,
+    "workbench.iconTheme": "material-icon-theme",
+    "breadcrumbs.enabled": true,
+    "editor.minimap.enabled": true,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+    }
+}
