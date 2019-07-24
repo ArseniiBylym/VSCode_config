@@ -6,10 +6,27 @@
     "editor.fontSize": 14,
     "workbench.colorCustomizations": {
         "[Monokai Dimmed]": {
-            "editor.background": "#272c30",
-            
-            "sideBar.background": "#3c3b35af"
-        },
+                "editor.background": "#24292a",
+                "sideBar.background": "#35342faf",
+            }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Monokai Dimmed]": {
+            "textMateRules": [
+                {
+                    "scope": "entity.name.class, entity.name.type",
+                    "settings": {
+                        "foreground": "#cc5252",
+                    }
+                },
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
     },
     "workbench.startupEditor": "none",
     "files.associations": {
@@ -19,8 +36,22 @@
     "workbench.iconTheme": "material-icon-theme",
     "breadcrumbs.enabled": true,
     "editor.minimap.enabled": true,
+    "editor.minimap.showSlider": "always",
     "javascript.implicitProjectConfig.experimentalDecorators": true,
     "emmet.syntaxProfiles": {
         "javascript": "jsx",
+    },
+    "editor.formatOnSave": false,
+    "prettier.eslintIntegration": false,
+    "prettier.stylelintIntegration": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
