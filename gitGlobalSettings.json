@@ -1,0 +1,10 @@
+core.editor='C:\Users\User\AppData\Local\Programs\Microsoft VS Code\Code.exe' --wait
+user.name=Arsenii Bylym
+user.email=arseniibylym@gmail.com
+alias.s=status
+alias.c=checkout
+alias.com=commit -m
+alias.b=branch
+pretty.my=format:%C(yellow)%h %C(dim green)%cd %C(reset)| %C(dim red)%d %C(cyan)%s
+format.pretty=my
+log.date=format-local:%Y-%m-%d %H:%M:%S

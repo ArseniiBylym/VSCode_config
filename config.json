@@ -53,5 +53,7 @@
     "editor.acceptSuggestionOnCommitCharacter": false,
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "eslint.alwaysShowStatus": true
 }

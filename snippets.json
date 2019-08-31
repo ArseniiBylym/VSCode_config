@@ -1,0 +1,32 @@
+{
+    "common.code-snippets": {
+        "Print to console": {
+            "scope": "javascript,typescript",
+            "prefix": "log",
+            "body": [
+                "console.log('$1');"
+            ],
+            "description": "Log output to console"
+        }
+    },
+    "javascriptreact.json": {
+        "React_functional_component": {
+            "prefix": "rfc",
+            "body": [
+                "import React, {useState, useEffect} from 'react';"
+                ""
+                "const ${1:$TM_FILENAME_BASE} = props => {"
+                ""
+                "	return ("
+                "		<div className={styles.root}>"
+                "			${2}"
+                "		</div>"
+                "	)"
+                "};"
+                ""
+                "export default $TM_FILENAME_BASE"
+            ],
+            "description": "React functional component"
+        }
+    }
+}

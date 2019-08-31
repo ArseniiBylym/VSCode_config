@@ -1,0 +1,25 @@
+{
+    "extensions": [
+        ".ejs",
+        "advanced-new-file",
+        "Atom Material Theme",
+        "Bookmarks",
+        "Bracket Pair Colorizer",
+        "Debugger for Chrome",
+        "DotENV",
+        "Git History",
+        "Live Server",
+        "Material Icon Theme",
+        "Path Autocomplete",
+        "Path Intellisense",
+        "Prettier - Code formater",
+        "Quokka.js",
+        "Sass",
+        "stylelint",
+        "TSLint",
+        "vscode-styled-component",
+        "vscode-styled-jsx",
+        "Wrap Console Log"
+
+    ]
+}
